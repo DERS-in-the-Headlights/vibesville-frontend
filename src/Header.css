@@ -1,20 +1,21 @@
 nav {
-  background-color:#38A3A5 ;
+  background-color:#39d6d8 ;
 }
 
 .navbar-toggler{
   position: fixed;
   left: 3rem;
-  background-color:#80ED99 !important;
+  background-color:#68f088 !important;
 }
 .navbar-brand{
   margin-right: none !important;
 }
 .navbar{
   display:  flex !important;
-  background-color: #38A3A5 !important;
+  background-color: #39b8b4 !important;
   position: relative;
   height: 8rem;
+  border-radius: 6px;
 }
 .navbar-brand{
   display: block;
