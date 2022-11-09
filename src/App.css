@@ -1,5 +1,5 @@
 body{
-  background-color: #22577A !important;
+  background-color: #2a78ad !important;
 }
 
 input{
@@ -7,7 +7,8 @@ input{
 }
 
 button{
-  border-radius: 25px;
+  border-radius: 0.375rem;
+  /* border-radius: 25px; */
   border: 3px solid black;
 }
 searchbar.button{
