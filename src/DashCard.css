@@ -1,0 +1,51 @@
+.dashboardCard{
+  width: 35vw !important;
+}
+.dashcardRatingAndDelete{
+display: flex;
+justify-content: space-between !important;
+margin-top: 1vw;
+border-top: 1px solid lightgrey;
+
+}
+.dashCardBody p{
+  width: auto !important;
+}
+.dashboardCard{
+  width: 50vw !important;
+  height: auto !important;
+  
+}
+.starsAndUpdateOnly{
+  width: auto;
+  display: flex;
+  position: absolute;
+  margin-right: 10px;
+ left: 2rem !important;
+  justify-content: space-between !important;
+  gap: 30px;
+}
+.dashCardList{
+  width: 50%;
+  height: 100% !important;
+}
+
+.cardCity {
+  border-top: 1px solid lightgrey;
+  margin-right: none !important;
+  font-size: 2vw !important;
+}
+/* .dashCardDelete{
+  position: absolute;
+  right: 1rem;
+} */
+
+#company {
+  font-style: italic;
+  font-size: 1.5vw;
+}
+
+
+/* #job-title {
+  color: ;
+} */

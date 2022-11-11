@@ -1,0 +1,118 @@
+.sideBarCanvas{
+  width: 800px !important;
+}
+
+.sidebarCard{
+  width: 500px !important;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.cardScore{
+  width: 50%;
+  min-height: 80px !important;
+  padding: .01px !important;
+}
+
+.sideBarCanvas .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #38A3A5;
+  width: 800px !important;
+}
+.sideBarCanvas .offcanvas-header {
+  background-color: #38A3A5;
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.sideBarCanvas .offcanvas-header .offcanvas-title{
+  font-size: 35px;
+}
+
+.sideBarCanvas .offcanvas-header .btn-close {
+  position: absolute;
+  right: 3% !important;
+  top: 2% !important;
+}
+
+.sidebarTopLeft {
+  width: 50%;
+}
+
+.sidebarTopLeft h2{
+  font-size: 20px;
+}
+.sidebarTopLeft h4{
+  font-size: 15px;
+}
+
+.cardBody {
+  width: 100%;
+  border: none !important;
+}
+
+.sidebarCardTitle {
+  display: flex;
+  background-color: #80ED99;
+  padding: 0 !important;
+  border-radius: 5px;
+}
+
+.sidebarTitle {
+  padding: 0;
+  margin: 0;
+}
+
+.cardBody {
+  padding: 0 !important;
+}
+
+.sidecardContainer {
+  display: flex;
+}
+
+.cardScore {
+  display: flex;
+  font-size: 15px;
+}
+
+#buttonSideDiv{
+  position: absolute;
+  top: 0;
+  right: 2%;
+}
+
+#buttonSideDiv button {
+  background-color: #80ED99 !important;
+  border: none;
+  padding: 0px;
+}
+
+#buttonSideDiv button:hover {
+  transform: scale(1.3);
+}
+
+
+.offcanvas-body .cardCity {
+  padding-right: 30px;
+  border-top: none;
+}
+
+.sideStar {
+  padding-bottom: 20px;
+}
+
+#sidebar-btn {
+  position: fixed;
+  top: 5%;
+  right: 3%;
+  z-index: 10;
+  font-size: 20px;
+  background-color: #80ED99;
+  color: #38A3A5;
+  border: none;
+}
